@@ -20,4 +20,3 @@ del RegReject.tmp
 :: display unregistered devices into command line 
 type RejectedDevices.txt
 pause
-
