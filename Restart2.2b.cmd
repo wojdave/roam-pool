@@ -1,3 +1,4 @@
+REM stop services
 net stop "ROAM DCMAlarmService"
 net stop "ROAM DCMDataService"
 net stop "ROAM DiagnosticService"
@@ -11,6 +12,7 @@ net stop "ROAM ScheduleCommandService"
 net stop "ROAM SLMAlarmService"
 net stop "ROAM SLMDataService"
 
+REM start services
 net start "ROAM DCMAlarmService"
 net start "ROAM DCMDataService"
 net start "ROAM DiagnosticService"
@@ -23,4 +25,3 @@ net start "ROAM ROAMSensorAlarmService"
 net start "ROAM ScheduleCommandService"
 net start "ROAM SLMAlarmService"
 net start "ROAM SLMDataService"
-
