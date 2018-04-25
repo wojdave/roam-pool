@@ -54,4 +54,3 @@ EXIT /b
 :: ECHO %var1%
 :: ECHO %var2%
 :: ECHO %var3%
-
