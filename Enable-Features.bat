@@ -42,4 +42,3 @@ Dism /online /Enable-Feature /FeatureName:WindowsMediaPlayer
 
 REM gateway configuration over port 23
 Dism /online /Enable-Feature /FeatureName:TelnetClient
-
