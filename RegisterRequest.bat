@@ -29,4 +29,3 @@ del RegisterRequest.tmp
 :: display unregistered devices into command line 
 type UnregisteredDevices.txt
 pause
-
