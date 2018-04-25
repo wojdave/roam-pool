@@ -1,0 +1,1 @@
+cat nc_mesh.log | grep RegisterRequest | awk -F '[=]' '{print $2}' | sort --unique > UnregisteredDevices
