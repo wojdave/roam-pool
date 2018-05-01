@@ -1,5 +1,6 @@
 #!/bin/bash
-# script to convert pdf to jpg or xps to pdf
+# script to convert pdf to png or xps to pdf
+# convert architectural drawings to map1.png 
 
 if [ $(head -c 4 "$1") = "%PDF" ]; then
 
